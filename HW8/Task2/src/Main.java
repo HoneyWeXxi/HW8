@@ -8,9 +8,7 @@ public class Main {
         int average = 0;
         int peopleMass = 0;
         for (int i = 0; i < mass.length; i++) {
-            mass[i] = new Random().nextInt(100 - 40 + 1) + 40;
-        }
-        for (int i = 0; i < mass.length; i++) {
+            mass[i] = new Random().nextInt(61) + 40;
             sum += mass[i];
             if (mass[i] >= 60 && mass[i] <= 80){
                 peopleMass++;
